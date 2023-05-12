@@ -1,0 +1,151 @@
+.home_section {
+    width: 100%;
+    position: relative;
+    top: 60px;
+    background-color: #e7e7e7;
+    min-height: calc(100vh - 60px);
+    border-bottom: 2px solid rgb(199, 199, 199);
+    margin-bottom: 10px;
+}
+
+a {
+    font-weight: 500;
+    color: #646cff;
+    text-decoration: inherit;
+}
+
+a:hover {
+    color: #535bf2;
+}
+
+body {
+    margin: 0;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+}
+
+.button {
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    background: #f3d078;
+    border: 1px solid #9c7e31;
+    height: 29px;
+    outline: none;
+    border-radius: 3px;
+    color: #111;
+    background: linear-gradient(to bottom, #f7dfa5, #f0c14b)
+}
+.last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin_btn {
+    margin-top: 7px;
+    margin-bottom: 23px;
+    width: 10%;
+    background: #f3d078;
+    cursor: pointer;
+    border: 1px solid #9c7e31;
+    height: 29px;
+    outline: none;
+    border-radius: 3px;
+    color: #111;
+    background: linear-gradient(to bottom, #f7dfa5, #f0c14b)
+}
+
+.header {
+    display: flex;
+    padding: 10px;
+    align-content: center;
+    justify-content: space-between;
+    background-color: rgb(231, 221, 221);
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+
+}
+
+.logo:hover {
+    color: green;
+    cursor: pointer;
+}
+
+.productDiv {
+    height: 300px;
+    width: 200px;
+    /* background-color: #e5e5e625; */
+    margin: 20px;
+}
+
+.productList {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.productImage {
+    height: 130px;
+    width: 195px;
+    margin: 2px;
+}
+
+.productTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.Quantity {
+    display: flex;
+    justify-content: center;
+    color: green;
+}
+
+.buttonSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.update,
+.delete {
+    height: 10px;
+}
+
+.update .delete:hover {
+    color: green;
+}
+
+.productDetail {
+    display: flex;
+    justify-content: center;
+}
+
+.productDetailContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 450px;
+}
+
+.title {
+    text-align: center;
+}

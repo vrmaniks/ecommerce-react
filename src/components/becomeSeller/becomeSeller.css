@@ -1,0 +1,182 @@
+.first {
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    margin-top: 7%;
+}
+
+.insidefirst {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding-left: 30px;
+}
+
+.insidefirst h1 {
+    font-size: 50px;
+}
+
+.sellerBtn{
+    background-color: #FFA41C;
+    letter-spacing: .5px;
+    font-size: 14px;
+    color: #0F1111;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    width: 200px;
+    box-shadow: 0 0 10px -5px rgba(0,0,0,.5);
+    margin-right: 20px;
+    padding: 10px 30px;
+    cursor: pointer;
+
+}
+
+.sellerBtn:hover{
+    background-color: #ec9615;
+}
+
+.firstimg {
+    flex: 1;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.insidefirst_2 {
+    width: 50%;
+}
+
+.second {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+}
+
+.insidesecond {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.insidesecond img {
+    width: 80px;
+    height: 80px;
+}
+
+.insidesecond div {
+    margin-left: 40px;
+}
+
+.third {
+    display: flex;
+    flex-direction: row;
+}
+
+.insidethird_2 img {
+    height: 400px;
+    width: 100%;
+}
+
+.insidethird {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.insidethird_2 {
+    width: 100%;
+}
+
+.insidethird h1 {
+    margin-top: 40px;
+}
+
+/* 
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+    background-image:URL("https://thumbs.dreamstime.com/b/online-seller-owner-take-photo-product-online-seller-owner-take-photo-product-upload-to-website-online-shop-online-117743410.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 500px;
+}
+
+.form{
+-webkit-box-shadow: 10px 11px 37px -15px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 11px 37px -15px rgba(0,0,0,0.75);
+box-shadow: 10px 11px 37px -15px rgba(0,0,0,0.75);
+border-radius: 34px 34px 34px 34px;
+-moz-border-radius: 34px 34px 34px 34px;
+-webkit-border-radius: 34px 34px 34px 34px;
+border: 0px solid #000000;
+    height:100%;
+    width: 60%;
+  padding: 12px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+ 
+}
+.input{
+      margin-bottom: 30%;
+      width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 26px;
+    border-width: 0px;
+    border-color: #CCCCCC;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-style: solid;
+    border-radius: 17px;
+    box-shadow: 1px 0px 8px rgba(66,66,66,.66);
+    text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+}
+label{
+    font-size: large;
+}
+.myButton {
+    margin-left: 35%;
+    margin-top: 5%;
+    height: 50px;
+    width: 150px;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+	background-color:#f9f9f9;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+	background-color:#e9e9e9;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+} */
+/* .intro{
+    margin-bottom: 10%;
+} */
