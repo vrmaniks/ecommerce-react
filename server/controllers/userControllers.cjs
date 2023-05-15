@@ -43,7 +43,7 @@ const registerUser = async (req, res) => {
             });
 
             const mailOption = {
-                from: "nikhilverma@gmail.com",
+                from: "youremailaddress",
                 to: email,
                 subject: "Verification Email",
                 html: `<h1>Welcome</h1><p>Hi ${name}, You recentally register on the e-commerce website and this email is regarding to verify your email on Ecommerce website <br><br>
