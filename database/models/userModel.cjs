@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 
-const key = "NIKS";  //these are credentials and i do not recommend you to access these like i did you should always maintain these things in the .env files that is a more better and professional approach.
+const key = "your secret key";  //these are credentials and i do not recommend you to access these like i did you should always maintain these things in the .env files that is a more better and professional approach.
 const options = {
     expiresIn: '5h'
 };
