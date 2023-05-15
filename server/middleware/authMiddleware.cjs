@@ -5,7 +5,7 @@ const authenticate = async (req, res, next) => {
     try {
         console.log("request for athentication");
         const token = req.body.token;
-        const verifyToken = jwt.verify(token, "NIKS"); //NIKS is the secret key it is recommended to store credentials in the .env file i know it but i did not use it here.
+        const verifyToken = jwt.verify(token, "your secret key"); //NIKS is the secret key it is recommended to store credentials in the .env file i know it but i did not use it here.
 
         const rootUser = await User.findOne({ _id: verifyToken._id, "tokens.token": token });
 
